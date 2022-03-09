@@ -6,7 +6,6 @@
         if($_POST['username'] !== "" || $_POST['password'] !== ""){
             $username= $_POST['username'];
             $password= $_POST['password'];
-            $_SESSION['username']=$username;
 			$query="SELECT * FROM users WHERE username='".$username."' AND password='".$password."';";
 			try{
 				$exec=$conn->query($query);
