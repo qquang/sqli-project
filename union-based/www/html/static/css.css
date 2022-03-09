@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #F7CAC9;
+}
+
+.header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #FF6F61;
+    margin-bottom: 40px;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.search-field {
+    height: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+
+.id {
+    width: 200px;
+}
+
+.Author {
+    width: 400px;
+}
+
+.search-btn {
+    height: 50px;
+    width: 150px;
+    background-color: #FF6F61;
+    border: none;
+    color: white;
+    border-radius: 25px;
+}
+
+.search-btn:hover {
+    border-color: #adadad;
+    transition: .5s;
+}
+
+.main {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.main thead tr {
+    background-color: #FF6F61;
+    color: #ffffff;
+    text-align: left;
+}
+
+.main th,
+.main td {
+    padding: 12px 15px;
+}
+
+.main tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.main tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.main tbody tr:last-of-type {
+    border-bottom: 2px solid #FF6F61;
+}
